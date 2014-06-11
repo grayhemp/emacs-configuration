@@ -1,0 +1,50 @@
+#+TITLE: Pyramidal
+#+CATEGORY: Pyramidal
+* Test memorization and build base images
+** 0
+** 1
+** 2
+* DONE Repeat the laptop words
+- [ ] 1 hour
+- [ ] 3 hours
+- [ ] 1 day
+- [ ] 3 days
+- [ ] 1 week
+** Camera
+** Screen
+** Input button
+** Keyboard
+** Touchpad
+* DONE Repeat the guitar words
+- [ ] 1 hour
+- [ ] 3 hours
+- [ ] 1 day
+- [ ] 3 days
+- [ ] 1 week
+** Body
+** Bridge
+** Sound hole
+** Neck
+** Head stock
+* DONE Repeat the sofa words
+- [ ] 1 hour
+- [ ] 3 hours
+- [ ] 1 day
+- [ ] 3 days
+- [ ] 1 week
+** Back
+** Left arm
+** Seat
+** Right arm
+** Under the seat
+* DONE Repeat the room door words
+- [ ] 1 hour
+- [ ] 3 hours
+- [ ] 1 day
+- [ ] 3 days
+- [ ] 1 week
+** Top side
+** Left side
+** Center
+** Right side
+** Handle

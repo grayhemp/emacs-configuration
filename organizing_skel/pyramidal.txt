@@ -1,0 +1,45 @@
+#+TITLE: Pyramidal
+* Overview
+Pyramidal is an effective words and phrases learning method. It
+combines mnemonic techniques with continuous memorization extent
+tests. The method assumes daily exercises of such length that is
+convenient to a person itself. Pyramidal makes one to pay more
+attention to words that are hard to memorize personally to him or
+here.
+* Usage notes
+Schedule the test task daily and decide how many time you can afford
+on it. 
+
+Capture unknown words. It might be performed during the routine
+activity. When capturing use the Pyramidal item in the capture
+template dialog. These words are placed to the "0" outline of the test
+task.
+
+Doing the task start from the lowest number outline in it:
+- if you can recall a word straight away move it to a higher number
+  outline, if there is no higher outline move it to the end of the
+  current one
+- if you managed to recall a word but it required you long to do then
+  move the word to the end of the current outline
+- if you can not recall a word then move it to a lower outline, if
+  there is no lower one then move it to the end of the list.
+
+After collecting 25 items in the "0" level build a base image system
+using the Cicero method and mnemonic. Describe it like a task and
+schedule to repeat:
+- after 1 hour
+- then after 3 hours
+- then after 1 day
+- then after 3 days
+- and finally after 1 week.
+
+After the full circle of repeating free the base image by refilling
+words to the "1" level outline.
+
+The best options to obtain definitions is to use Google Definition
+Search. Just search "word definition" in Google and copy the first
+result. To get the ideas of words visualization use Google Image
+Search. Search "word image" and enjoy.
+
+If we are in the pyramidal buffer refiling works only within the
+second level of the buffer.

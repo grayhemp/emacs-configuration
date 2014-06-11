@@ -1,0 +1,176 @@
+#+TITLE: Organizing
+* References
+- [[http://en.wikipedia.org/wiki/Getting_Things_Done][Getting Things Done on Wikipedia]]
+- [[http://en.wikipedia.org/wiki/Pomodoro_Technique][Pomodoro Technique on Wikipedia]]
+- [[http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html][How I use Emacs and Org-mode to implement GTD]]
+- [[http://members.optusnet.com.au/~charles57/GTD/remember.html][Remember Mode Tutorial]]
+- [[http://members.optusnet.com.au/~charles57/GTD/Natural_Project_Planning.html][Natural Project Planning with org-mode]]
+- [[http://orgmode.org/guide/index.html][The compact Org-mode Guide]]
+- [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
+* Overview
+The model is implemented as a convenient, simple and useful tasks
+management model based on the essence from the [[http://en.wikipedia.org/wiki/Getting_Things_Done][Getting Things Done]],
+[[http://en.wikipedia.org/wiki/Pomodoro_Technique][Pomodoro Technique]] and Life Coaching methodologies. It is aimed for
+feeling free and performing well when dealing with a lot of tasks and
+complex projects. It is built around [[http://www.gnu.org/software/emacs/][Emacs]] using [[http://orgmode.org][org-mode]],
+[[http://www.emacswiki.org/emacs/RememberMode][RememberMode]] and a set of rules.
+* Getting Things Done
+Here I described 5 general points of GTD adapted to the model. Note
+what files I use for what purposes.
+
+- Collect (capture) notes to the notes file when they appear during
+  the day. Keep your mind free of them. Switch to the new task only if
+  it is urgent.
+- Process (refile) the collected notes in the morning next day. It is
+  included into the daily review process.
+  1. Get the task from the notes file and identify it (never return it
+     back)
+  2. If it requires an action write it down to the project file or to
+     the tasks file so it gets to the common tasks stack
+     - Do it straight away if it requires not more then 5 minutes
+     - Assign it to your team if it is possible
+     - Schedule it if it need to be done by a specific time
+  3. If it does not require an action then move it to the journal,
+     someday or trash file
+- Organize things
+  - All the stuff is organized in activity files
+  - Projects are just the first level tasks that have subtasks. Active
+    projects do not have any keyword.
+  - Next actions are tasks with any active state. It is up to you to
+    choose which one is the next in a project.
+  - Deferred tasks are those that are delegated to others or required
+    any external event to be resumed
+  - Someday tasks are tasks to do in the future
+  - Calendar events are appointments and other things that must be
+    done in the specified time or periodically. It could never be next
+    actions.
+- Review the someday tasks weekly and notes daily, replace and
+  reschedule them if it is needed
+- Do all the actions like adding new tasks, moving them, marking, etc
+  as quick as possible
+* Natural Planning Model
+It is used for tasks required more complex and deep development -
+projects.
+
+General points of the Natural planning model:
+
+1. Define purpose and principles, note down what you want to do and why
+2. Describe outcome, visualize the result of the task
+3. Arrange a brainstorm, draw mind maps, generate an amount of ideas
+   and reduce them according to the requirements
+4. Organize the project into a structure, identify the resources,
+   costs, people and skills needed
+5. Identify the next action that you need to achieve the goal
+
+Sometimes on some level of abstraction you do not have enough
+information to describe an issue as a task that is ready to start
+executing right now. Consider this task as a project and repeat steps
+3-5 for it.
+* Pomodoro Technique
+GTD is good at organizing and planning but it has poor atomic time
+management features. Pomodoro can fill the gaps. So here I would use
+only the essence of the technique skipping organizing points.
+
+The process is:
+
+1. Set the countdown (pomodoro) timer to 25 minutes
+2. Work on the task until the alert and note the progress and results
+3. Take a break
+   - 5 minutes for common break
+   - 15–20 minutes for every fourth break
+4. Repeat from the step 1
+* Life Coaching
+Fill the coaching review daily, just answer this question and correct
+your way of doing things that day:
+
+- What did I enjoy doing yesterday?
+- What would I like to do more of?
+- What would I like to do less of?
+- What did I learn yesterday?
+- What will I do differently today?
+- Thought for the last day
+* Org settings
+See [[~/.emacs.d/organizing.el]].
+* Org files
+The files used in the model:
+
+- [[file:notes.org][notes.org]] is the heap to capture issues
+- [[file:routine.org][routine.org]] contains all the not categorized tasks
+- [[file:project.org][project.org]] is a particular activity file
+- [[file:journal.org][journal.org]] is a diary file
+- [[someday.org]] contains ideas for future
+- [[file:trash.org][trash.org]] is for useless things
+- [[file:project.org_archive][project.org_archive]] is an archive file
+
+Descriptive stuff except short notes is separated from organizing
+files to text files.
+* Task states
+Default "TODO | DONE" workflow is extended with additional keywords.
+
+For inactive tasks:
+
+- ENTRUSTED is used when a task is delegated to somebody
+- CANCELED
+* Capturing issues
+When capturing an issue it is allowed to create:
+
+- Life Coach - the life coaching quiz, is captured into the journal
+  file in a date tree
+- Journal - thoughts in the date tree of the journal file
+- Note - is captured into the notes file for the later processing
+* Agenda files
+I do not hard-code agenda files to the org-mode settings. Instead I
+add them into the custom settings standard way. I added the files
+below:
+
+- The routine file
+- All the activity and project files
+* Refiling issues
+When I process notes I correct purposes, set states and schedule
+tasks. Then I refile it to the appropriate places. It is allowed to
+refile to all the agenda files in addition to notes, someday and bin
+files. The maximal level of refiling is 10.
+
+If a task is on the level 1 and it has no state it might be considered
+as an active project if it has subtasks. An active project is
+considered as stuck if it has no tasks in active state.
+* Project files
+When processing notes or brainstorming something some issue could grow
+into something more complex then just a task. In such cases I create
+the separate project file for it and use the project template as the
+pattern - [[file:project.org][project.org]]. After creating the project file I add it to the
+agenda.
+* Daily review
+The daily review should be done daily before any other tasks. This is
+a part of the organizing model. See the daily scheduled task in the
+organizing file. I also use the org-checklist contrib to reset
+checkboxes when marking the task as DONE.
+
+The daily review includes the life coaching sub-task. This sub-task is
+based on the remember template [[file:life-coach-template.txt][life-coach-template.txt]].
+* Weekly review
+The weekly review should be done every Monday before other tasks. It
+is scheduled in the organizing file and uses org-checklist contrib to
+reset checkboxes when marking the task as DONE.
+* Pomodoro implementation
+As the Pomodoro timer I use the standard org-mode countdown timer with
+several customizations:
+
+- Default countdown time is set to 25 min
+- The countdown timer is started automatically when a task is clocking
+  in, if it has not been started yet
+- The timer is finished automatically when a task is clocking
+  out. When finishing the timer it asks for a time interval of a
+  break, 5 minutes by default.
+- Raise X urgency hint and play sound after countdown done
+
+Example things to do during a break:
+
+- Yoga
+- Read a book
+- Darts
+- Play a guitar
+* Events reminder
+For every issue containing an active time in agenda I configured the
+system to raise X urgency hint and play sound every 3 minutes in the
+15 minutes interval before this time.

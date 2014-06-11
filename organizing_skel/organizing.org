@@ -1,0 +1,30 @@
+#+TITLE: Organizing
+#+CATEGORY: Organizing
+* TODO Complete a daily review
+  SCHEDULED: <2014-06-12 Thu 08:00 ++1d>
+  :PROPERTIES:
+  :ID:       cffb9571-34bc-4bf3-a635-904ce2f3d415
+  :RESET_CHECK_BOXES: t
+  :END:
+- [ ] Answer the life coach questions
+- [ ] Check chats
+- [ ] Check mail
+  - Review settling mail
+  - Skim spam
+- [ ] Check paper mail
+- Review transactions
+  - Ensure that there are no fraud
+- [ ] Review meetup.com agenda
+  - Try to visit at least one meetup per week
+- [ ] Review [[file:notes.org][notes.org]]
+  - Note down thoughts if any
+  - Refile necessary tasks
+- [ ] Review TODO tasks
+  - Find out what stage they are
+  - Try to force them
+  - Do them if it will not take long
+- [ ] Make a plan for the day
+  - Arrange a coordination meeting
+- [ ] Arrange plans by days
+- [ ] Skim [[file:someday.org][someday.org]]
+- [ ] Check birthdays

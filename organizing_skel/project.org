@@ -1,0 +1,230 @@
+#+TITLE: Project
+#+CATEGORY: Project
+#+STARTUP: showeverything
+* DONE Notes
+- [[http://www.opportunityanalysiscanvas.com/][Opportunity Analysis Canvas]]
+- [[http://www.businessmodelgeneration.com/][Business Model Generation]]
+- [[http://www.slideshare.net/explorics/testing-your-business-model][Testing Your Business Model]]
+- [[http://businessmodelalchemist.com/][Business Model Alchemist]]
+- [[https://www.coursera.org/course/innovativeideas][Developing Innovative Ideas for New Companies: The 1st Step in Entrepreneurship from University of Maryland/Coursera]]
+- [[https://class.coursera.org/startup-001][Startup Engineering from Stanford/Coursera]]
+* TODO Brainstorm the idea
+1. Recognize the problem
+2. Generate various solutions
+3. Evaluate alternatives
+   - Keep in mind that nothing is an alternative too
+4. Select the best solutions
+* Describe an outcome briefly
+* Make an opportunity analysis
+** Risks factors
+- How high are the risks?
+- What are the rewards?
+- What are the consequences?
+- Were all elements of the decision considered?
+** Industry conditions
+- What is the life cycle stage of your industry?
+- What impact do knowledge conditions have in your industry?
+- Are the demand conditions in your industry favorable?
+** Industry status
+- Is the industry capital intensive?
+- Are you trying to enter a concentrated market?
+- What is average sized company in the industry?
+** Competition
+- What is the learning curve in your industry and market of interest?
+- What complimentary assets are most critical in the above industry
+  and market of interest?
+- How can you make the reputation of competitors irrelevant?
+** Value curve
+- What existing factors can you eliminate?
+- Where can you reduce factors and not reduce value?
+- Which factors can you raise above competitors?
+- What new factors can you create?
+** Opportunity identification
+- Is the problem real?
+- Does your solution create value for your customers?
+- Is your advantage superior and sustainable?
+- Can you build the right team at the right time?
+* Create a wireframe
+- Draw a screen map
+- Sketch interfaces
+- Describe interfaces
+* Create a mockup
+- Design and link interfaces
+* Create a prototype
+- Ugly hack that works for a single major use case
+* Build a business model
+** Customer segments
+- For whom are we creating value?
+- Who are our most important customers?
+
+Types of customer segments:
+
+- Mass market, no customer segmentation
+- Niche market, narrow specific or specialization
+- Segmented, segments with slightly different needs
+- Diversified, completely different needs
+- Multi-sided platform, mutual benefits to 2 or more segments
+
+Customer groups represent separate segments if:
+
+- Their needs require and justify a distinct offer
+- They are reached through different distribution channels
+- They require different types of relationship
+- They have substantially different profitabilities
+- They are willing to pay for different aspects of the offer
+** Value proposition
+- What value do we deliver to the customer?
+- Which one of our customer’s problems are we helping to solve?
+- What bundles of products and services are we offering to each Customer Segment?
+- Which customer needs are we satisfying?
+
+Types of value:
+
+- Newness, there was no similar offer
+- Performance, improved product's performance
+- Customization, adjusting it for specific segments
+- "Getting the job done", when clients delegate you some job
+- Design, in the meaning of how nice it is
+- Brand or status, prestige of owning
+- Price, lower cost or deferred payments
+- Cost reduction, in the meaning of operating
+- Risk reduction, guarantee, spare parts, etc.
+- Accessibility, available to those who previously lacked access
+- Convenience and usability, easier to use
+** Channels
+- Through which Channels do our Customer Segments want to be
+  reached?
+- How are we reaching them now?
+- How are our Channels integrated?
+- Which ones work best?
+- Which ones are most cost-efficient?
+- How are we integrating them with customer routines?
+
+Channel phases:
+
+1. Awareness
+2. Evaluation
+3. Purchase
+4. Delivery
+5. After sales
+** Customer relationships
+- What type of relationship does each of our Customer Segments
+  expect us to establish and maintain with them?
+- Which ones have we established?
+- How are they integrated with the rest of our business model?
+- How costly are they?
+
+Types of relationship:
+
+- Personal assistance, representative helps during or after sales
+- Dedicated Personal Assistance, key account and personalized
+- Self-Service, provided with means to help themselves
+- Automated Services, combination of self-service and automation
+- Communities, to allow customers to share knowledge and to
+  understand their needs
+- Co-creation, involve customers to creative processes
+** Revenue streams
+- For what value are our customers really willing to pay?
+- For what do they currently pay?
+- How are they currently paying?
+- How would they prefer to pay?
+- How much does each Revenue Stream contribute to overall revenues?
+
+Types of revenue:
+
+- Asset sale, ownership to a physical product
+- Usage fee, by the use of an amount of service
+- Subscription fee, continuous access to service
+- Lending/renting/leasing, fixed period usage grants
+- Licensing, permission to use intellectual property
+- Brokerage fees, intermediation service
+- Advertising, promoting a product, service or brand
+
+Fixed pricing:
+
+- List Price
+- Product feature dependent
+- Customer segment dependent
+- Volume dependent
+
+Dynamic pricing:
+
+- Negotiation (bargaining)
+- Yield Management
+- Real-time-Market
+- Auctions
+** Key resources
+- What Key Resources do our Value Propositions require?
+- Our Distribution Channels? 
+- Customer Relationships?
+- Revenue Streams?
+
+Types of key resources:
+
+- Physical, assets
+- Intellectual, brands, patents, knowledge, etc.
+- Human, employees, consultants, etc.
+- Financial, cache, credit lines, stocks, etc.
+** Key activities
+- What Key Activities do our Value Propositions require?
+- Our Distribution Channels?
+- Customer Relationships?
+- Revenue streams?
+
+Types of key activities:
+
+- Production, designing, making and delivering
+- Problem solving, consultations, hospitals, training, etc.
+- Platform/network, platform maintaining and developing
+** Key partnerships
+- Who are our Key Partners?
+- Who are our key suppliers?
+- Which Key Resources are we acquiring from partners?
+- Which Key Activities do partners perform?
+
+Types of partnerships:
+
+- Optimization and economy of scale, buyer-supplier, outsourcing,
+  sharing activities
+- Reduction of risk and uncertainty, partnerships between
+  competitors and agreements to lower uncertainty
+- Acquisition of particular resources and activities, to acquire
+  knowledge, licenses, customers, etc.
+** Cost structure
+- What are the most important costs inherent in our business model?
+- Which Key Resources are most expensive?
+- Which Key Activities are most expensive?
+
+Types of cost structure:
+
+- Cost-driven, focus on minimizing costs wherever possible
+- Value-driven, maximizing value
+
+Cost structure characteristics:
+
+- Fixed costs
+- Variable costs
+- Economies of scale, costs fall as output rises
+- Economies of scope, costs fall because of multiple products
+* Test the business model
+As a result you will check that the model works and exactly define an
+minimum viable product (MVP).
+
+1. Identify risks, uncertainties, unknowns
+   - Find dubious items that are not clear or without proves
+2. Select one thing at a time
+3. State what you want to learn
+   - Define exact questions to find answers for
+4. Frame your hypotheses
+   - Define the answers you would like to have
+5. Design an experiment
+6. Run the experiment
+7. Measure the results
+* Make a landing page
+* Create a program
+- Clean code that works for all use cases, with tests
+* Make a business plan
+* Create a product
+- Design, copywriting, pricing, physical components
+* Run the business
+- Incorporation, regulatory ﬁlings, payroll, etc.
