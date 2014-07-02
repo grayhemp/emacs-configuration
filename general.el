@@ -51,7 +51,7 @@
 (delete-selection-mode t)
 
 ;; Font
-(set-default-font "Monospace-9")
+(set-default-font "Monospace-12")
 
 ;; Input method
 (setq default-input-method "russian-computer")
