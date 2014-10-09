@@ -1,3 +1,22 @@
+;; Configure mmm-mode (C-c % C-b to reparce if submode is not
+;; determined automatically)
+(require 'mmm-mode)
+(setq mmm-global-mode 'maybe)
+;(setq mmm-submode-decoration-level 0)
+
+;; Set up an mmm group for fancy html editing
+(mmm-add-group 'fancy-html
+	       '((html-css-attribute
+		  :submode css-mode
+		  :face mmm-declaration-submode-face
+		  :front "style=\""
+		  :back "\"")))
+
+;; What features should be turned on in this html-mode?
+(add-to-list 'mmm-mode-ext-classes-alist '(html-mode nil html-js))
+(add-to-list 'mmm-mode-ext-classes-alist '(html-mode nil embedded-css))
+(add-to-list 'mmm-mode-ext-classes-alist '(html-mode nil fancy-html))
+
 ;; Minor modes
 (add-hook 'html-mode-hook 'whitespace-mode)
 
