@@ -24,7 +24,7 @@ Create an empty custom configuration file.
     touch custom.el
 
 Install necessary packages. Usualy they are mmm-mode, haskell-mode,
-but, depending on your distribution, Emacs might ask for other once
+but, depending on your distribution, Emacs might ask for other ones
 when started. Then, finally, in Emacs, open `organizing.org` and
 `routine.org` files from the `emacs-configuration/organizing`
 directory and do `C-c [` in each of them to add to agenda.
