@@ -17,3 +17,4 @@
 (load "~/.emacs.d/java.el")
 (load "~/.emacs.d/yaml.el")
 (load "~/.emacs.d/markdown.el")
+(load "~/.emacs.d/dockerfile.el")
