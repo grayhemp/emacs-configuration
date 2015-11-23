@@ -51,7 +51,7 @@
 (delete-selection-mode t)
 
 ;; Font
-(set-default-font "Monospace-11")
+(set-default-font "Ubuntu Mono 12")
 
 ;; Input method
 (setq default-input-method "russian-computer")
@@ -130,3 +130,6 @@
   and backspace."  t " no-easy-keys"
   'no-easy-keys-minor-mode-map :global t)
 (no-easy-keys-minor-mode 1)
+
+;; fontify code in code blocks
+(setq org-src-fontify-natively t)
