@@ -12,13 +12,14 @@
   - Review settling mail
   - Skim spam
 - [ ] Check paper mail
-- Review transactions
+- [ ] Review transactions
   - Ensure that there are no fraud
 - [ ] Review meetup.com agenda
   - Try to visit at least one meetup per week
 - [ ] Review [[file:notes.org][notes.org]]
   - Note down thoughts if any
   - Refile necessary tasks
+- [ ] Review other notes
 - [ ] Review TODO tasks
   - Find out what stage they are
   - Try to force them
@@ -28,3 +29,7 @@
 - [ ] Arrange plans by days
 - [ ] Skim [[file:someday.org][someday.org]]
 - [ ] Check birthdays
+- [ ] Review yesterday's clocktable
+
+#+BEGIN: clocktable :block yesterday :scope agenda-with-archives :fileskip0 t :link :indent :narrow 60
+#+END:
