@@ -3,7 +3,7 @@
 
 ;; Mode specific settings
 (load "~/.emacs.d/elisp.el")
-(load "~/.emacs.d/haskell.el")
+;(load "~/.emacs.d/haskell.el")
 (load "~/.emacs.d/python.el")
 (load "~/.emacs.d/ruby.el")
 (load "~/.emacs.d/perl.el")

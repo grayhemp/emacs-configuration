@@ -133,3 +133,7 @@
 
 ;; fontify code in code blocks
 (setq org-src-fontify-natively t)
+
+;; make long lines in the whitespace mode look more readable
+(custom-set-faces
+ '(whitespace-line ((t (:background "Wheat")))))
