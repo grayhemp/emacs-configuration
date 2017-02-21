@@ -8,7 +8,7 @@
 (load "~/.emacs.d/ruby.el")
 (load "~/.emacs.d/perl.el")
 (load "~/.emacs.d/sql.el")
-(load "~/.emacs.d/html.el")
+;(load "~/.emacs.d/html.el")
 (load "~/.emacs.d/postgresql.el")
 (load "~/.emacs.d/conf.el")
 (load "~/.emacs.d/organizing.el")
