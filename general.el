@@ -51,7 +51,7 @@
 (delete-selection-mode t)
 
 ;; Font
-(set-default-font "Ubuntu Mono 12")
+;(set-default-font "Ubuntu Mono 12")
 
 ;; Input method
 (setq default-input-method "russian-computer")
