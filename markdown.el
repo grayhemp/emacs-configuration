@@ -1,7 +1,10 @@
+; Major mode
+(require 'markdown-mode)
+
 ; Minor modes
 (add-hook 'markdown-mode-hook 'auto-fill-mode)
 (add-hook 'markdown-mode-hook 'flyspell-mode)
-;(add-hook 'markdown-mode-hook 'whitespace-mode)
+(add-hook 'markdown-mode-hook 'whitespace-mode)
 (add-hook 'markdown-mode-hook 'subword-mode)
 
 ;; Use markdown-mode for specific file types
