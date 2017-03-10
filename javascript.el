@@ -16,6 +16,11 @@
 (add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
+;; Flycheck for jshint
+;(require 'flycheck)
+;(add-hook 'js-mode-hook
+;          (lambda () (flycheck-mode t)))
+
 ;; Use JSHint for style checking by C-c C-u and do auto-check on save
 (setq jshint-cli
       (concat "jshint --verbose --show-non-errors "

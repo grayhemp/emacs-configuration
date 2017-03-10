@@ -8,22 +8,26 @@
 ;; Add path to the local site-lisp
 (add-to-list 'load-path "~/.emacs.d/site-lisp")
 
+;; Add exec-path for /usr/local/bin
+(add-to-list 'exec-path "/usr/local/bin")
+
 ;; Use desctop notifications
 (require 'notifications)
 
 ;; Use common lisp
 (require 'cl)
 
-;; Configure compilation with buffer autoclose on success
-(require 'compile)
-(defun compilation-exit-autoclose (status code msg)
-  (when (and (eq status 'exit) (zerop code))
-    (bury-buffer buffer)
-    (replace-buffer-in-windows buffer)
-    (message "Compilation...ok"))
-  (message "Compilation...not ok")
-  (cons msg code))
-(setq compilation-exit-message-function 'compilation-exit-autoclose)
+;; Close the compilation window if there was no error at all.
+(setq compilation-exit-message-function
+      (lambda (status code msg)
+	;; If M-x compile exists with a 0
+	(when (and (eq status 'exit) (zerop code))
+	  ;; then bury the *compilation* buffer, so that C-x b doesn't go there
+  	  (bury-buffer "*compilation*")
+  	  ;; and return to whatever were looking at before
+  	  (replace-buffer-in-windows "*compilation*"))
+	;; Always return the anticipated result of compilation-exit-message-function
+	(cons msg code)))
 
 ;; Uniquify buffer names
 (require 'uniquify)
@@ -137,3 +141,6 @@
 ;; make long lines in the whitespace mode look more readable
 (custom-set-faces
  '(whitespace-line ((t (:background "Wheat")))))
+
+;; Invoking a login shell
+(setq explicit-bash-args '( "--login" "--noediting" "-i"))
