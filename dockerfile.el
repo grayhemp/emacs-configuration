@@ -11,5 +11,7 @@
 ;; Indentation settings
 (add-hook 'dockerfile-mode-hook
 	  '(lambda ()
-	     (setq indent-tabs-mode nil
+	     (setq indent-tabs-mode t
 		   tab-width 4)))
+
+;(setq dockerfile-mode-hook nil)
