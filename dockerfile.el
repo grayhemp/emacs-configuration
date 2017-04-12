@@ -4,7 +4,7 @@
 
 ; Minor modes
 (add-hook 'dockerfile-mode-hook 'auto-fill-mode)
-;(add-hook 'dockerfile-mode-hook 'whitespace-mode)
+(add-hook 'dockerfile-mode-hook 'whitespace-mode)
 (add-hook 'dockerfile-mode-hook 'subword-mode)
 
 
