@@ -17,6 +17,9 @@
 ;; Use common lisp
 (require 'cl)
 
+;; Use compile
+(require 'compile)
+
 ;; Close the compilation window if there was no error at all.
 (setq compilation-exit-message-function
       (lambda (status code msg)
