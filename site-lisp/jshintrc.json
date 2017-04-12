@@ -46,7 +46,7 @@
                                 // (within functions)
     "maxstatements" : false,    // {int} Max number statements per function
     "maxcomplexity" : false,    // {int} Max cyclomatic complexity per function
-    "maxlen"        : 120,       // {int} Max number of characters per line
+    "maxlen"        : 180,       // {int} Max number of characters per line
 
     // Relaxing
     "asi"           : false,     // true: Tolerate Automatic Semicolon

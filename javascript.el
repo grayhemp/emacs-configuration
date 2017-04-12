@@ -7,7 +7,7 @@
 	  '(lambda ()
 	     (electric-indent-mode t) ; Auto-indent on closing braces
 	     (setq indent-tabs-mode nil
-		   js-indent-level 2)))
+		   js-indent-level 4)))
 
 ;; Configure SWS and Jade modes
 (add-to-list 'load-path "~/.emacs.d/site-lisp/jade-mode")
