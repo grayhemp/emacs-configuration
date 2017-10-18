@@ -4,7 +4,7 @@
 ;; 4 spaces instead of tab
 (add-hook 'conf-mode-hook
 	  '(lambda ()
-	     (setq indent-tabs-mode t
+	     (setq indent-tabs-mode nil
 		   tab-width 4
 		   indent-line-function 'insert-tab)
 	     (define-key conf-mode-map (kbd "C-j")

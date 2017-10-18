@@ -79,9 +79,13 @@
 
 ;; Dired Mode extra features
 (load "dired-x")
-(setq dired-omit-files
-      (concat dired-omit-files "\\|^\\..+$"))
-;(dired-omit-mode 1)
+(setq dired-omit-files "^\\.\\.?$")
+      ;(concat dired-omit-files "^\\.{1,2}$"))
+(add-hook 'dired-mode-hook (lambda () (dired-omit-mode)))
+
+;; Direx Mode
+(require 'direx)
+(global-set-key (kbd "C-x C-j") 'direx:find-directory)
 
 ;; Windmove (S-arrows)
 (when (fboundp 'windmove-default-keybindings)

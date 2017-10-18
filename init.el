@@ -2,6 +2,7 @@
 (load "~/.emacs.d/general.el")
 
 ;; Mode specific settings
+(load "~/.emacs.d/bats.el")
 (load "~/.emacs.d/c.el")
 (load "~/.emacs.d/conf.el")
 (load "~/.emacs.d/dockerfile.el")
@@ -9,7 +10,8 @@
 (load "~/.emacs.d/java.el")
 (load "~/.emacs.d/javascript.el")
 ;(load "~/.emacs.d/haskell.el")
-(load "~/.emacs.d/html.el")
+(load "~/.emacs.d/hcl.el")
+;(load "~/.emacs.d/html.el")
 (load "~/.emacs.d/markdown.el")
 (load "~/.emacs.d/organizing.el")
 (load "~/.emacs.d/perl.el")
@@ -18,4 +20,5 @@
 (load "~/.emacs.d/ruby.el")
 (load "~/.emacs.d/sql.el")
 (load "~/.emacs.d/shell.el")
+(load "~/.emacs.d/terraform.el")
 (load "~/.emacs.d/yaml.el")

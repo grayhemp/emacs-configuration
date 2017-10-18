@@ -4,7 +4,7 @@
 
 ;; Use org-mode in org, org_archive and txt files
 (add-to-list 'auto-mode-alist
-	     `(,(concat "\\(\\.org\\|\\.org_archive\\|\\.txt\\|\\.md\\)$") .
+	     `(,(concat "\\(\\.org\\|\\.org_archive\\|\\.txt\\)$") .
 	       org-mode))
 
 ;; Set global keys
