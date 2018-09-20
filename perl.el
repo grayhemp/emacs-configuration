@@ -5,9 +5,7 @@
 ;; Indentation settings
 (add-hook 'perl-mode-hook
 	  '(lambda ()
-	     (if (string-match
-		  "~/Projects/test"
-		  (buffer-file-name))
+	     (if (string-match "~/Projects/test" (buffer-file-name))
 		 (setq indent-tabs-mode nil)
 	       (setq indent-tabs-mode t))
 	     (setq tab-width 4)))

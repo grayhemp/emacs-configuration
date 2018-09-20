@@ -2,6 +2,8 @@
 (require 'markdown-mode)
 
 ; Minor modes
+;(require 'markdown-mode-table)
+
 (add-hook 'markdown-mode-hook 'auto-fill-mode)
 (add-hook 'markdown-mode-hook 'flyspell-mode)
 (add-hook 'markdown-mode-hook 'whitespace-mode)

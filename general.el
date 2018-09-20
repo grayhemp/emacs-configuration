@@ -10,6 +10,7 @@
 
 ;; Add exec-path for /usr/local/bin
 (add-to-list 'exec-path "/usr/local/bin")
+(setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
 
 ;; Use desctop notifications
 (require 'notifications)
@@ -46,7 +47,7 @@
 ;; Turn off scrollbar, toolbar and menubar
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
-(menu-bar-mode -1)
+;(menu-bar-mode -1)
 
 ;; Turn on column number mode
 (column-number-mode t)

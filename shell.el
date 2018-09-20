@@ -11,6 +11,7 @@
 	       (setq tab-width 4
 		     sh-basic-offset 4
 		     sh-indentation 4))
+	     (setq sh-indent-after-continuation `always)
 	     (setq indent-tabs-mode nil)))
 
 ;(setq sh-mode-hook nil)

@@ -11,7 +11,9 @@
 ;; Indentation settings
 (add-hook 'dockerfile-mode-hook
 	  '(lambda ()
-	     (setq indent-tabs-mode nil
-		   tab-width 4)))
+	     (if (string-match "grayhemp" (buffer-file-name))
+		 (setq tab-width 2)
+	       (setq tab-width 4))
+	     (setq indent-tabs-mode nil)))
 
 ;(setq dockerfile-mode-hook nil)
