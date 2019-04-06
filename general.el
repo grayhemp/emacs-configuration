@@ -47,7 +47,7 @@
 ;; Turn off scrollbar, toolbar and menubar
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
-;(menu-bar-mode -1)
+(menu-bar-mode 1)
 
 ;; Turn on column number mode
 (column-number-mode t)
